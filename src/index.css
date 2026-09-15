@@ -17,8 +17,8 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #0a0a0f;
-  color: #e8e6ef;
+  background-color: #ffffff;
+  color: #0f172a;
 }
 
 h1, h2, h3, h4, .font-display {
@@ -55,9 +55,9 @@ h1, h2, h3, h4, .font-display {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #111117;
+  background: #f8fafc;
 }
 ::-webkit-scrollbar-thumb {
-  background: #32323f;
+  background: #cbd5e1;
   border-radius: 999px;
 }

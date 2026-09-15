@@ -4,15 +4,13 @@ import Loader from "./Loader";
 export default function TechGrid({ technologies, loading, stackIds, onAdd }) {
   return (
     <div id="technologies">
-      <div className="mb-6 flex items-end justify-between">
-        <div>
-          <h2 className="font-display text-2xl font-bold text-white">
-            Explore Technologies
-          </h2>
-          <p className="mt-1 text-sm text-white/50">
-            {technologies.length} tools across every layer of the stack.
-          </p>
-        </div>
+      <div className="mb-6">
+        <h2 className="font-display text-2xl font-bold text-slate-900">
+          Explore the <span className="text-pink-500">Technologies</span>
+        </h2>
+        <p className="mt-1 text-sm text-slate-500">
+          Pick one technology per category to build your ideal stack.
+        </p>
       </div>
 
       {loading ? (
