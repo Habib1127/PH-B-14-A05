@@ -8,32 +8,31 @@ build with into a live sidebar panel.
 
 ## 🛠️ Built With
 
-- **React 19** — component-based UI
-- **Vite** — dev server and build tool
-- **Tailwind CSS** — utility-first styling
-- **React-Toastify** — toast notifications
-- **JSON** — technology data source
+- **React 19** component-based UI
+- **Vite** dev server and build tool
+- **Tailwind CSS** utility-first styling
+- **React-Toastify** toast notifications
+- **JSON** technology data source
 
 ## ✨ Features
 
-1. **Live stack builder** — click "Add to Stack" on any of the 15
+1. **Live stack builder** click "Add to Stack" on any of the 15
    technology cards and it instantly appears in the "Your Stack" sidebar,
    with duplicate adds blocked and warned against.
-2. **Fully responsive layout** — a sticky navbar that collapses into a
+2. **Fully responsive layout** a sticky navbar that collapses into a
    hamburger menu on mobile, and a technology grid that reflows from 3
    columns down to 1 as the screen narrows.
-3. **One-line re-theming** — the entire brand look (logo, hero highlight,
+3. **One-line re-theming** the entire brand look (logo, hero highlight,
    buttons) is driven by a single gradient defined once in `index.css`, so
    changing three color stops re-skins the whole site.
 
 ## 🚀 Getting Started
 
-```bash
+bash
 npm install
 npm run dev
-```
 
----
+
 
 ## ❓ React Questions
 
@@ -81,8 +80,3 @@ if stack.length === 0 the component renders an empty-state message
 **7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?**
 A parent passes data down to a child through props, e.g. `<TechCard tech={tech} isAdded={...} />`. For a child to send something back up, the parent passes down a function as a prop (e.g. `onAdd`), and the child calls that function like `onClick={onAdd}` in `TechCard.jsx` which runs the parent's logic (`handleAdd` in `App.jsx`) with whatever data the child provides.
 
-
-## 📤 Submission
-
-- GitHub Repository Link:https://github.com/Habib1127/PH-B-14-A05.git
-- Live Site Link: https://ph-b-14-a05.vercel.app/
