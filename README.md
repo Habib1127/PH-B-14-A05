@@ -79,7 +79,7 @@ if stack.length === 0 the component renders an empty-state message
 "Your stack is empty..."instead of the list of stack items.
 
 **7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?**
-A parent passes data down to a child through props, e.g. `<TechCard tech={tech} isAdded={...} />`. For a child to send something back up, the parent passes down a function as a prop (e.g. `onAdd`), and the child calls that function — like `onClick={onAdd}` in `TechCard.jsx` — which runs the parent's logic (`handleAdd` in `App.jsx`) with whatever data the child provides.
+A parent passes data down to a child through props, e.g. `<TechCard tech={tech} isAdded={...} />`. For a child to send something back up, the parent passes down a function as a prop (e.g. `onAdd`), and the child calls that function like `onClick={onAdd}` in `TechCard.jsx` which runs the parent's logic (`handleAdd` in `App.jsx`) with whatever data the child provides.
 
 
 ## 📤 Submission
