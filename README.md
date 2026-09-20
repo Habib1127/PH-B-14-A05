@@ -85,4 +85,4 @@ A parent passes data down to a child through props, e.g. `<TechCard tech={tech} 
 ## 📤 Submission
 
 - GitHub Repository Link:https://github.com/Habib1127/PH-B-14-A05.git
-- Live Site Link:
+- Live Site Link: https://ph-b-14-a05.vercel.app/
