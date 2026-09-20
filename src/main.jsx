@@ -8,6 +8,6 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <ToastContainer position="bottom-right" theme="dark" autoClose={2500} />
+    <ToastContainer position="bottom-right" theme="light" autoClose={2500} />
   </StrictMode>,
 )

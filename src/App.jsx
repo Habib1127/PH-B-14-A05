@@ -46,7 +46,7 @@ export default function App() {
   }
 
   return (
-    <div id="top" className="min-h-screen bg-ink-950">
+    <div id="top" className="min-h-screen bg-white">
       <Navbar />
       <Hero />
 
