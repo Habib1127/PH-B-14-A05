@@ -1,5 +1,7 @@
 # 🧱 Dev Stack Builder
 
+Live link: https://ph-b-14-a05.vercel.app/
+
 Dev Stack Builder is a React web app for browsing modern web development
 technologies and putting together our own personal "stack." Instead of
 scrolling through docs and blog posts, we flip through cards for frontend,
